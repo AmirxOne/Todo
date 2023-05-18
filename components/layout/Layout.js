@@ -6,7 +6,7 @@ import { RxDashboard } from "react-icons/rx";
 
 // import { FiLogOut } from "react-icons/fi";
 
-function Layout() {
+function Layout({children}) {
   return (
     <div className="container">
       <header>
